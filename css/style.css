@@ -1,0 +1,9 @@
+.header {
+  width: 100%;
+  border: 1px solid red;
+}
+.header__logo {
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
