@@ -1,0 +1,14 @@
+/* MIXINS SECTION OPERATION */
+@mixin step-size {
+    padding: 1.2rem;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+@mixin step-number-size {
+    padding: 5px 8px;
+    margin-left: -3.2rem;
+    border-radius: 100%;
+}
+@mixin step-shadow {
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 14%);
+}
