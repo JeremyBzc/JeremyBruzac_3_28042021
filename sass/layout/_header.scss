@@ -8,13 +8,19 @@
         height: $logo-size;
     }
     .location__pages {
+        height: 2.8rem;
         width: 100%;
-        height: 2.5rem;
-        background-color: $color-bg;
-        .location__searching {
-            border: none;
-            background-color: $color-bg;
-            font-weight: 700;
+        box-shadow: inset 0px 3px 3px -1px gray;
+        background: darken($color: $color-bg, $amount: 5);
+        .location__content {
+            display: flex;
+            justify-content: center;
+            padding: 0.8rem 0 0 5rem;
+            .location__searching {
+                border: none;
+                font-size: 1.2rem;
+                background: darken($color: $color-bg, $amount: 5);
+            }
         }
     }
 }

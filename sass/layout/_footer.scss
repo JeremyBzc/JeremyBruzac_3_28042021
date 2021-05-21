@@ -1,0 +1,18 @@
+#footer {
+    background: lighten($color: black, $amount: 20);
+}
+.footer__container {
+
+    .footer__logo {
+        filter: invert(1);
+        width: 45%;
+        margin-top: 1.2rem;
+    }
+    .footer__items > a {
+        color: $color-btn;
+        line-height: 1.5rem;
+        .items__icon {
+            width: 10%
+        }
+    }
+}
