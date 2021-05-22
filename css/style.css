@@ -11,6 +11,9 @@ body .restaurants__bloc {
 body .footer__container {
   padding: 0 15px;
 }
+body .menu__container {
+  padding: 30px 15px 50px;
+}
 
 ul {
   padding: 0;
@@ -37,6 +40,40 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
+}
+
+p {
+  margin: 0;
+}
+
+.menu__title {
+  font-family: "Shrikhand";
+}
+
+.meal__title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.meal__name {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem 0;
+}
+
+.meal__contentdescrip {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.meal__contentprice {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.fa-heart {
+  font-size: 1.5rem;
 }
 
 .btn__search {
@@ -172,6 +209,71 @@ h2 {
 }
 .footer__container .footer__items > a .items__icon {
   width: 10%;
+}
+
+.headermenu {
+  display: flex;
+  justify-content: center;
+}
+.headermenu__logo > img {
+  height: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.headermenu .header__logo {
+  font-size: 1.3rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 1rem;
+}
+
+.menu__pic {
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu__container {
+  background: #F4F4F4;
+  border-radius: 35px 35px 0 0;
+  position: relative;
+  margin-top: -3rem;
+}
+.menu__container .menu__heading {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__container .meal {
+  display: flex;
+  flex-direction: column;
+}
+.menu__container .meal__title {
+  border-bottom: 3px solid #99E2D0;
+  height: 1.5rem;
+  width: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+.menu__container .meal__bloc {
+  background: white;
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+}
+.menu__container .meal__bloc .meal__content {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__container .meal__bloc .meal__content .meal__contentpricebox {
+  display: flex;
+}
+.menu__container .meal__bloc .meal__content .meal__contentpricebox .meal__contenthidden {
+  display: none;
+}
+.menu__container .meal .order {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

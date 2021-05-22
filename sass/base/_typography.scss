@@ -13,3 +13,30 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
+p {
+    margin: 0;
+}
+.menu__title {
+    font-family: 'Shrikhand';
+}
+.meal__title {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+.meal__name {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.2rem 0;
+}
+.meal__contentdescrip {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.meal__contentprice {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.fa-heart {
+    font-size: 1.5rem;
+}
