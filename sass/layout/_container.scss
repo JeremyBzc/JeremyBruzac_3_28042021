@@ -1,10 +1,12 @@
 .booking {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     background: $color-bg;
-    padding-bottom: 3rem;
+    height: 10rem;
+    padding: 2.5rem 0;
 }
 .operation {
    
