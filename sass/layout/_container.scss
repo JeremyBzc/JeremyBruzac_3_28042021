@@ -11,7 +11,6 @@
 .operation {
    
     &__step {
-        list-style-type: none;
         .step {
             @include step-size;
             @include step-shadow;
@@ -19,15 +18,22 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-        
+
             .step__number {
                 background: $colour-primary;
                 color: $color-btn;
                 @include step-number-size;
+                text-align: center;
             }
             .operation__icon {
                 font-size: $icon-size;
                 color: darken($color-bg, $amount: 50);
+            }
+            &:hover {
+                background: lighten( $colour-primary, $amount: 30);
+            }
+            &:hover i {
+                color: $colour-primary;
             }
         }
     }
@@ -76,6 +82,7 @@
                 right: 20px;
                 top: 20px;
             }
+            
         }
     } 
 }

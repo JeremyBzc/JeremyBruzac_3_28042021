@@ -1,0 +1,25 @@
+@keyframes fade {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+.meal {
+    animation: fade 2000ms ease-in-out both;
+
+    &__bloc1 {
+        animation-delay: 200ms;   
+    }
+    &__bloc2 {
+        animation-delay: 300ms;    
+    }   
+    &__bloc3 {
+        animation-delay: 400ms;   
+    }
+    &__bloc4 {
+        animation-delay: 500ms;   
+    }
+}

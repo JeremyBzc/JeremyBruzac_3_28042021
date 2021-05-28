@@ -1,0 +1,23 @@
+@keyframes heart {
+    0% {
+    opacity: 0.5;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+.core__empty::before {
+   position: relative;
+   
+}
+.core__full {
+    position: absolute;
+    right: 0.5px;
+    background: linear-gradient( $colour-secondary, $colour-primary);
+    opacity: 0;
+    &:hover {
+        opacity: 1;
+        animation: heart 5s 5s linear ease-in-out;
+    }
+}

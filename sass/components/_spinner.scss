@@ -1,0 +1,39 @@
+@keyframes enter {
+    0% {
+    transform: translateX(0px);
+    }
+    100% {
+    transform: translateX(-9999px);
+    }
+}
+@keyframes bar {
+  
+    0% {
+    transform: scale(0.2);
+    }
+    100% {
+    transform: scale(0.8);
+    }
+    
+  }
+  .spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: white;
+    position: fixed;
+    z-index: 3;
+    animation: enter 0s 5s ease-out both;
+    &__bar {
+      background: linear-gradient(170deg,#9356DC, #FF79DA);
+      height: 30px;
+      width: 30px;
+      border-radius: 100%;
+      animation: bar 1000ms alternate-reverse infinite;
+    }
+    
+  }
+  
