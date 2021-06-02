@@ -23,10 +23,9 @@
     height: 100%;
     width: 100%;
     position: fixed;
-    background: white;
-    position: fixed;
+    background: rgba( 255, 255, 255, 0.9);
     z-index: 3;
-    animation: enter 0s 5s ease-out both;
+    animation: enter 0s 4s ease-in-out both;
     &__bar {
       background: linear-gradient(170deg,#9356DC, #FF79DA);
       height: 30px;
