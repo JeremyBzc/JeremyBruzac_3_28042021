@@ -1,9 +1,16 @@
 .btn__search {
     background: linear-gradient(170deg, $colour-secondary, $colour-primary);
     color: $color-btn;
+    box-shadow: 3px 3px 3px #d0d0d0;
     padding: 1rem;
     border-radius: 25px;
     text-align: center;
     width: 60%;
     cursor: pointer;
+    &:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+        box-shadow: 10px 10px 10px #d0d0d0;
+        opacity: 0.8;
+    }
 }

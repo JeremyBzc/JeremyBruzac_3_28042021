@@ -80,7 +80,7 @@ body .menu__container {
   padding: 30px 15px 50px;
 }
 body .section__title {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 body {
@@ -138,11 +138,18 @@ h2 {
 .btn__search {
   background: linear-gradient(170deg, #FF79DA, #9356DC);
   color: white;
+  box-shadow: 3px 3px 3px #d0d0d0;
   padding: 1rem;
   border-radius: 25px;
   text-align: center;
   width: 60%;
   cursor: pointer;
+}
+.btn__search:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 10px 10px 10px #d0d0d0;
+  opacity: 0.8;
 }
 
 @keyframes enter {
@@ -180,14 +187,6 @@ h2 {
   animation: bar 1000ms alternate-reverse infinite;
 }
 
-@keyframes heart {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .core__empty::before {
   position: relative;
 }
@@ -196,11 +195,15 @@ h2 {
   position: absolute;
   right: 0.5px;
   background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #9356DC;
   opacity: 0;
 }
 .core__full:hover {
+  transition: 4s;
   opacity: 1;
-  animation: heart 5s 5s linear ease-in-out;
 }
 
 .meal__contenthidden {
