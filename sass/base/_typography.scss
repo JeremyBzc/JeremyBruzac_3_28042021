@@ -22,16 +22,16 @@ h2 {
     font-weight: 400;
     margin: 0;
 }
-.meal__name {
+.meal-card__title {
     font-size: 1rem;
     font-weight: 700;
     margin: 0 0 0.2rem 0;
 }
-.meal__contentdescrip {
-    font-size: 0.8rem;
+.meal-card__detail {
+    font-size: 0.9rem;
     font-weight: 300;
 }
-.meal__contentprice {
+.meal-card__price {
     font-size: 0.9rem;
     font-weight: 700;
 }

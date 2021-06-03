@@ -1,7 +1,4 @@
-.meal__contenthidden {
-    position: relative;
-    padding: 1rem;
-    background-color: $colour-tertiary;
-    border-radius: 0 15px 15px 0;
-    color: white;
+.meal-card:hover > .meal-card__hiddenbox  {
+  transform: scaleX(1);
+  width: 20%;
 }

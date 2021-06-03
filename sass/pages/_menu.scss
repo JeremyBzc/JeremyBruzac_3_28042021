@@ -32,27 +32,42 @@
        flex-direction: column; 
        &__title {
            border-bottom: 3px solid $colour-tertiary;
-           height: 1.5rem;
+           height: 1.2rem;
            width: 2.5rem;
            margin-bottom: 1.2rem;
        }
-       &__bloc {
+        .meal-card {
            background: $color-btn;
            border-radius: 15px;
-           padding: 0.5rem;
            margin-bottom: 2rem;    
            box-shadow: 5px 5px 10px rgb(0 0 0 / 14%); 
+           display: flex;
+           justify-content: space-between;
            cursor: pointer;
-           .meal__content {
+           &__infos {
                display: flex;
-               justify-content: space-between;
-               .meal__contentpricebox {
-                   display: flex;
-                   .meal__contenthidden {
-                        
-                   }
-            
-               }
+               flex-direction: column;
+               width: 70%;
+               padding: 0.5rem;
+               line-height: 1.2rem;
+               text-overflow: ellipsis;
+               overflow: hidden;
+               white-space: nowrap;
+           }
+           &__price {
+               display: flex;
+               align-items: flex-end;
+               padding: 0.5rem 0.5rem 0.5rem 0;
+           }
+           &__hiddenbox {
+               width: 0%;
+               overflow: hidden;
+               background: #99E2D0;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border-radius: 0 15px 15px 0;
+               color: white; 
            }
        }
        .order {
