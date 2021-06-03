@@ -208,7 +208,13 @@ h2 {
 
 .meal-card:hover > .meal-card__hiddenbox {
   transform: scaleX(1);
-  width: 20%;
+  padding: 0 2rem;
+  transition: all 1s ease-in-out;
+}
+
+.meal-card:hover > .meal-card__hiddenbox > i {
+  transform: rotate(-1turn);
+  transition: all 1s ease-in-out;
 }
 
 @keyframes fade {
