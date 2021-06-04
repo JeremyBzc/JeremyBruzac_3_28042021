@@ -1,0 +1,81 @@
+/********************MEDIA QUERIES DESKTOP********************/
+@media (min-width: 1199px) {
+
+/*******ACCUEIL*******/
+#main__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.location__pages {
+    border-radius: 20px 20px 0 0;
+}
+.booking {
+    border-radius: 0 0 20px 20px;
+}
+.operation__bloc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .operation__step {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;  
+        .step {
+            width: 25%;
+        }
+    }
+}
+.restaurants {
+    border-radius: 20px 20px 0 0;
+}
+.restaurants__bloc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .restaurants__cards {
+        width: 45%;
+        margin-bottom: 3rem;
+    }
+}
+/*******MENUS*******/
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.headermenu {
+    .header__logo {
+        left: 25rem;
+    }
+}
+.menu__container {
+    margin-top: -20rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    .meal {
+        width: 30%;
+        display: flex;
+    }
+}
+.btn__search {
+    width: 50%;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
