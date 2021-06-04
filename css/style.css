@@ -76,6 +76,9 @@ body .restaurants__bloc {
 body .footer__container {
   padding: 0 15px;
 }
+body .menu__heading {
+  margin-bottom: 1.5rem;
+}
 body .menu__container {
   padding: 30px 15px 50px;
 }
@@ -451,6 +454,89 @@ h2 {
 .menu__container .meal .order {
   display: flex;
   justify-content: center;
+}
+
+/********************MEDIA QUERIES TABLET********************/
+@media (min-width: 768px) {
+  /*******ACCUEIL*******/
+  .header {
+    height: 10rem;
+  }
+  .header .logo {
+    height: 4rem;
+    padding: 1rem;
+  }
+
+  .booking__title {
+    font-size: 1.5rem;
+  }
+
+  .booking__logline {
+    font-size: 1.2rem;
+  }
+
+  .btn__search {
+    width: 30%;
+    padding: 1.5rem;
+  }
+
+  .section__title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .operation__bloc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .operation__bloc .operation__step {
+    width: 50%;
+  }
+
+  .restaurants__bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .restaurants__bloc .restaurants__cards {
+    width: 85%;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__container .footer__logo {
+    height: 3rem;
+    width: 15rem;
+    padding-bottom: 1.5rem;
+  }
+  .footer__container .footer__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /*******MENUS*******/
+  .headermenu {
+    height: 5rem;
+  }
+  .headermenu__logo > img {
+    height: 4rem;
+    padding: 1rem;
+    font-size: 3rem;
+  }
+  .headermenu .header__logo {
+    font-size: 2rem;
+    top: 1.8rem;
+  }
+
+  .menu__container {
+    margin-top: -12rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
