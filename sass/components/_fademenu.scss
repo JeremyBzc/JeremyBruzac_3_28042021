@@ -1,25 +1,26 @@
 @keyframes fade {
     0% {
     opacity: 0;
+    transform: translateY(10px)
     }
     100% {
     opacity: 1;
+    transform: translateY(0);
     }
 }
 
-.meal {
+.meal-card{
     animation: fade 2000ms ease-in-out both;
-
-    &__bloc1 {
-        animation-delay: 200ms;   
-    }
-    &__bloc2 {
-        animation-delay: 300ms;    
-    }   
-    &__bloc3 {
-        animation-delay: 400ms;   
-    }
-    &__bloc4 {
-        animation-delay: 500ms;   
-    }
+}
+.meal-card--1 {
+    animation-delay: 100ms;   
+}
+.meal-card--2 {
+    animation-delay: 200ms;    
+}   
+.meal-card--3{
+    animation-delay: 300ms;   
+}
+.meal-card--4 {
+    animation-delay: 400ms;   
 }
