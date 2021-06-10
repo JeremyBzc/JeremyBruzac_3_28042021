@@ -186,7 +186,23 @@ h2 {
   height: 30px;
   width: 30px;
   border-radius: 100%;
-  animation: bar 1000ms alternate-reverse infinite;
+  animation: bar 2000ms alternate-reverse infinite;
+}
+
+.spinner__bar--1 {
+  animation-delay: 200ms;
+}
+
+.spinner__bar--2 {
+  animation-delay: 400ms;
+}
+
+.spinner__bar--3 {
+  animation-delay: 600ms;
+}
+
+.spinner__bar--4 {
+  animation-delay: 800ms;
 }
 
 .core__empty::before {
@@ -398,9 +414,10 @@ h2 {
 }
 
 .menu__pic {
-  max-height: 500px;
+  max-height: 480px;
   width: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 .menu__container {
@@ -472,10 +489,10 @@ h2 {
 @media (min-width: 768px) {
   /*******ACCUEIL*******/
   .header {
-    height: 10rem;
+    height: 8rem;
   }
   .header .logo {
-    height: 4rem;
+    height: 3rem;
     padding: 1rem;
   }
 
@@ -534,20 +551,17 @@ h2 {
 
   /*******MENUS*******/
   .headermenu {
-    height: 5rem;
+    height: 3rem;
   }
-  .headermenu__logo > img {
-    height: 4rem;
-    padding: 1rem;
-    font-size: 3rem;
+  .headermenu .logo {
+    height: 2.5rem;
   }
-  .headermenu .header__logo {
+  .headermenu__arrow {
     font-size: 2rem;
-    top: 1.8rem;
   }
 
   .menu__container {
-    margin-top: -12rem;
+    margin-top: -15rem;
   }
 }
 /********************MEDIA QUERIES DESKTOP********************/
@@ -607,7 +621,7 @@ h2 {
   }
 
   .menu__container {
-    margin-top: -20rem;
+    margin-top: -15rem;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;

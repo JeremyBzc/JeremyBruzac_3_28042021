@@ -31,8 +31,20 @@
       height: 30px;
       width: 30px;
       border-radius: 100%;
-      animation: bar 1000ms alternate-reverse infinite;
+      animation: bar 2000ms alternate-reverse infinite;
     }
     
+  }
+  .spinner__bar--1 {
+    animation-delay: 200ms;
+  }
+  .spinner__bar--2 {
+    animation-delay: 400ms;
+  }
+  .spinner__bar--3 {
+    animation-delay: 600ms;
+  }
+  .spinner__bar--4 {
+    animation-delay: 800ms;
   }
   
