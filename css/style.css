@@ -67,7 +67,7 @@ table {
 body {
   box-sizing: border-box;
 }
-body .operation {
+body .operation__bloc {
   padding: 0 15px;
 }
 body .restaurants__bloc {
@@ -414,10 +414,12 @@ h2 {
   margin-top: -3rem;
 }
 .menu__container .menu__heading {
-  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.menu__container .menu__heading .core__full {
+  right: 0.9rem;
 }
 .menu__container .meal {
   display: flex;
@@ -503,7 +505,6 @@ h2 {
   }
 
   .operation__bloc {
-    width: 100%;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
