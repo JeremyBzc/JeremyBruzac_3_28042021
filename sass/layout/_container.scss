@@ -18,6 +18,7 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
+            cursor: pointer;
 
             .step__number {
                 background: $colour-primary;
@@ -31,6 +32,8 @@
             }
             &:hover {
                 background: lighten( $colour-primary, $amount: 30);
+                transform: scale(1.05);
+                transition: 0.3s;
             }
             &:hover i {
                 color: $colour-primary;
