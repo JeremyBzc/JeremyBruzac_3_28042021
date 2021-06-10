@@ -1,18 +1,17 @@
 .headermenu {
     display: flex;
-    justify-content: center;
-    &__logo > img {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    &__logo {
         height: 1.8rem;
-        margin-bottom: 0.5rem;
     }
-    .header__logo {
-        font-size: 1.3rem;
-        position: absolute;
-        left: 1.5rem;
-        top: 1rem;
+    &__arrow {
+        font-size: 1.3rem;  
     }
 }
 .menu__pic {
+    max-height: 500px;
     width: 100%;
     object-fit: cover;
 }

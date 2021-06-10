@@ -1,7 +1,10 @@
 
 .core__empty::before {
    position: relative;
-   
+   &:hover {
+    display: none;
+}
+
 }
 .core__full {
     position: absolute;
@@ -10,10 +13,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: $colour-primary;
+    -webkit-text-stroke-color: $colour-secondary;
     opacity: 0;
     &:hover {
-        transition: 4s;
+        transition: 2s;
         opacity: 1;  
     }
 }

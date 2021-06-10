@@ -16,129 +16,134 @@
         <script src="https://kit.fontawesome.com/a31e139e01.js" crossorigin="anonymous"></script>
     </head>
 <body>
-    <!--HEADER MENU-->
-    <header class="headermenu">
-        <div class="headermenu__logo">
-            <a href="index.html">
-                <i class="fas fa-arrow-left header__logo"></i>
-            </a>
-            <img class="logo" src="images/logo/ohmyfood.png" alt="logo ohmyfood">
-        </div>
-    </header>
-    <article class="menu">
-        <img class="menu__pic" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens">
-            <div class="menu__container">
-                <div class="menu__heading">
-                    <h1 class="menu__title">Le délice des sens</h1>
-                    <i class="far fa-heart core core--full"></i>
-                </div>
-                <!--STARTER SECTION-->
-                <section class="meal">
-                    <h2 class="meal__title">ENTRÉES</h2>
-                    <div class="meal-card meal-card--1">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Tartare de thon</h3>
-                            <div class="meal-card__detail">Assaisonné au yuzu</div>
-                        </div>
-                            <div class="meal-card__price">25€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                    <div class="meal-card meal-card--2">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Bouchée de homard croustillant</h3>
-                            <div class="meal-card__detail">Et sa farandole de petits légumes</div>
-                        </div>
-                            <div class="meal-card__price">35€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                    <div class="meal-card meal-card--3">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Velouté de cèpes</h3>
-                            <div class="meal-card__detail">Aux truffes</div>
-                        </div>
-                            <div class="meal-card__price">20€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                </section>
-                <!--MAIN COURSE SECTION-->
-                <section class="meal">
-                    <h2 class="meal__title">PLATS</h2>
-                    <div class="meal-card meal-card--1">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Poulet rôti aux herbes de provence</h3>
-                            <div class="meal-card__detail">Et sa crème de truffe</div>
-                        </div>
-                            <div class="meal-card__price">40€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                    <div class="meal-card meal-card--2">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Langouste rôtie</h3>
-                            <div class="meal-card__detail">Et ses légumes de saison</div>
-                        </div>
-                            <div class="meal-card__price">35€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                    <div class="meal-card meal-card--3">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Côte de boeuf angus</h3>
-                            <div class="meal-card__detail">Et sa purée de panais</div>
-                        </div>
-                            <div class="meal-card__price">44€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                </section>
-                <!--DESSERT SECTION-->
-                <section class="meal">
-                    <h2 class="meal__title">DESSERTS</h2>
-                    <div class="meal-card meal-card--1">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Farandole de desserts</h3>
-                            <div class="meal-card__detail">Du chef</div>
-                        </div>
-                            <div class="meal-card__price">18€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                    <div class="meal-card meal-card--2">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Crème brulée</h3>
-                            <div class="meal-card__detail">Revisitée</div>
-                        </div>
-                            <div class="meal-card__price">22€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                    <div class="meal-card meal-card--3">
-                        <div class="meal-card__infos">
-                            <h3 class="meal-card__title">Tiramisu</h3>
-                            <div class="meal-card__detail">À la noisette</div>
-                        </div>
-                            <div class="meal-card__price">23€</div>
-                            <div class="meal-card__hiddenbox">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                    </div>
-                    <div class="order">
-                        <div class="btn__search">Commander</div>
-                    </div>
-                </section>
+    <div id="main__container">
+        <!--HEADER MENU-->
+        <header class="headermenu">
+            <div class="headermenu__arrow">
+                <a href="index.html">
+                    <i class="fas fa-arrow-left header__logo"></i>
+                </a>
             </div>
-    </article>
+            <div class="headermenu__logo">
+                <img class="logo" src="images/logo/ohmyfood.png" alt="logo ohmyfood">
+            </div>
+            <div classm="headermenu__empty"></div>
+        </header>
+        <article class="menu">
+            <img class="menu__pic" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens">
+                <div class="menu__container">
+                    <div class="menu__heading">
+                        <h1 class="menu__title">Le délice des sens</h1>
+                        <i class="far fa-heart core core--full"></i>
+                    </div>
+                    <!--STARTER SECTION-->
+                    <section class="meal">
+                        <h2 class="meal__title">ENTRÉES</h2>
+                        <div class="meal-card meal-card--1">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Tartare de thon</h3>
+                                <div class="meal-card__detail">Assaisonné au yuzu</div>
+                            </div>
+                                <div class="meal-card__price">25€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                        <div class="meal-card meal-card--2">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Bouchée de homard croustillant</h3>
+                                <div class="meal-card__detail">Et sa farandole de petits légumes</div>
+                            </div>
+                                <div class="meal-card__price">35€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                        <div class="meal-card meal-card--3">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Velouté de cèpes</h3>
+                                <div class="meal-card__detail">Aux truffes</div>
+                            </div>
+                                <div class="meal-card__price">20€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                    </section>
+                    <!--MAIN COURSE SECTION-->
+                    <section class="meal">
+                        <h2 class="meal__title">PLATS</h2>
+                        <div class="meal-card meal-card--1">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Poulet rôti aux herbes de provence</h3>
+                                <div class="meal-card__detail">Et sa crème de truffe</div>
+                            </div>
+                                <div class="meal-card__price">40€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                        <div class="meal-card meal-card--2">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Langouste rôtie</h3>
+                                <div class="meal-card__detail">Et ses légumes de saison</div>
+                            </div>
+                                <div class="meal-card__price">35€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                        <div class="meal-card meal-card--3">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Côte de boeuf angus</h3>
+                                <div class="meal-card__detail">Et sa purée de panais</div>
+                            </div>
+                                <div class="meal-card__price">44€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                    </section>
+                    <!--DESSERT SECTION-->
+                    <section class="meal">
+                        <h2 class="meal__title">DESSERTS</h2>
+                        <div class="meal-card meal-card--1">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Farandole de desserts</h3>
+                                <div class="meal-card__detail">Du chef</div>
+                            </div>
+                                <div class="meal-card__price">18€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                        <div class="meal-card meal-card--2">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Crème brulée</h3>
+                                <div class="meal-card__detail">Revisitée</div>
+                            </div>
+                                <div class="meal-card__price">22€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                        <div class="meal-card meal-card--3">
+                            <div class="meal-card__infos">
+                                <h3 class="meal-card__title">Tiramisu</h3>
+                                <div class="meal-card__detail">À la noisette</div>
+                            </div>
+                                <div class="meal-card__price">23€</div>
+                                <div class="meal-card__hiddenbox">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                        </div>
+                        <div class="order">
+                            <div class="btn__search">Commander</div>
+                        </div>
+                    </section>
+                </div>
+        </article>
+    </div>
     <!--FOOTER MENU-->
     <footer id="footer">
         <div class="footer__container">

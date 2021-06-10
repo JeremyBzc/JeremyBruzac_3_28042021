@@ -135,7 +135,6 @@ h2 {
 
 .logo {
   height: 1.8rem;
-  padding: 0.8rem;
 }
 
 .btn__search {
@@ -193,6 +192,9 @@ h2 {
 .core__empty::before {
   position: relative;
 }
+.core__empty::before:hover {
+  display: none;
+}
 
 .core__full {
   position: absolute;
@@ -201,11 +203,11 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #9356DC;
+  -webkit-text-stroke-color: #FF79DA;
   opacity: 0;
 }
 .core__full:hover {
-  transition: 4s;
+  transition: 2s;
   opacity: 1;
 }
 
@@ -384,20 +386,19 @@ h2 {
 
 .headermenu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
-.headermenu__logo > img {
+.headermenu__logo {
   height: 1.8rem;
-  margin-bottom: 0.5rem;
 }
-.headermenu .header__logo {
+.headermenu__arrow {
   font-size: 1.3rem;
-  position: absolute;
-  left: 1.5rem;
-  top: 1rem;
 }
 
 .menu__pic {
+  max-height: 500px;
   width: 100%;
   object-fit: cover;
 }
@@ -596,7 +597,7 @@ h2 {
   }
 
   /*******MENUS*******/
-  body {
+  #main__container {
     max-width: 1200px;
     margin: 0 auto;
   }
