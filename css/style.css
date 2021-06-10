@@ -186,23 +186,7 @@ h2 {
   height: 30px;
   width: 30px;
   border-radius: 100%;
-  animation: bar 2000ms alternate-reverse infinite;
-}
-
-.spinner__bar--1 {
-  animation-delay: 200ms;
-}
-
-.spinner__bar--2 {
-  animation-delay: 400ms;
-}
-
-.spinner__bar--3 {
-  animation-delay: 600ms;
-}
-
-.spinner__bar--4 {
-  animation-delay: 800ms;
+  animation: bar 1000ms alternate-reverse infinite;
 }
 
 .core__empty::before {
@@ -489,7 +473,7 @@ h2 {
 }
 
 /********************MEDIA QUERIES TABLET********************/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /*******ACCUEIL*******/
   .header {
     height: 8rem;
@@ -576,9 +560,15 @@ h2 {
   .menu__container {
     margin-top: -15rem;
   }
+  .menu__container .menu__heading {
+    width: 100%;
+  }
+  .menu__container .menu__heading .core__full {
+    right: 1rem;
+  }
 }
 /********************MEDIA QUERIES DESKTOP********************/
-@media (min-width: 1199px) {
+@media screen and (min-width: 1199px) {
   /*******ACCUEIL*******/
   #main__container {
     max-width: 1200px;
